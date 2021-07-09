@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../Domashka/fonts/lato/Lato-Black.ttf);
+}
+
+.conteiner{
+max-width: 1600px;
+margin: 0 auto;
+}
+
+.header{
+    background-color: #222;
+    height: 75px;
+    padding: 19px 0; 
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+}
+
+.logo_1:not(:last-child){
+    margin-right: 33px;
+}
+
+.conteiner_start{
+   background-color: rgba(241, 228, 230, 1); 
+   height: 764px;
+   width: 1600px;
+}
+
+.text_index{
+color: rgba(241, 109, 127, 1);
+font-family: 'Lato';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+}
+
+.text_index_2{
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+}
+
+.text_index_3{
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+}
+
+.text_fone{
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.fone_1{
+    height: 100%;
+    max-width: 1365px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.fone_1{
+    background-image: url(../Domashka/img/chel.png);
+    background-repeat: no-repeat;
+}
+
+.ofer_wrap_1{
+    background-image: url(../Domashka/img_offer/women.png);
+    width: 360px;
+    height: 260px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.ofer_wrap_1::after{
+    content: '';
+    background: rgba(33, 22, 22, 0.7);
+    width: 360px;
+    height: 260px;
+}
+
+.ofer_wrap_2{
+    background-image: url(../Domashka/img_offer/men.png);
+    width: 360px;
+    height: 260px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ofer_wrap_2::after{
+    content: '';
+    background: rgba(33, 22, 22, 0.7);
+    width: 360px;
+    height: 260px;
+}
+
+.ofer_wrap_3{
+    background-image: url(../Domashka/img_offer/kids.png);
+    width: 360px;
+    height: 260px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ofer_wrap_3::after{
+    content: '';
+    background: rgba(33, 22, 22, 0.7);
+    width: 360px;
+    height: 260px;
+}
+
+.ofer_wrap_4{
+    background-image: url(../Domashka/img_offer/accesories.png);
+    width: 1160px;
+    height: 180px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ofer_wrap_4::after{
+    content: '';
+    background: rgba(33, 22, 22, 0.7);
+    width: 1160px;
+    height: 180px;
+}
+
+.ofer_full{
+    display: flex;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ofer{
+  max-width: 1160px; 
+  padding-top: 60px; 
+}
+
+.text{
+    content: '';
+    position: absolute;
+}
+
+.text1{
+color: rgba(241, 109, 127, 1);
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 19px;
+}
+
+.text2{
+color: white;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.text_catalog{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text_catalog1{
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.tc1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+}
+
+.tc2{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+
+.items1{
+    background-color: rgba(248, 248, 248, 1);
+    height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1{
+    background-image: url(../Domashka/img_catalog/catalog_1.png);
+    height: 420px;
+    width: 360px;
+}
+
+.cat_text1{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.t1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+}
+
+.t2{
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.t3{
+color: #F16D7F;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.items2{
+    background-color: rgba(248, 248, 248, 1);
+    height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.img2{
+    background-image: url(../Domashka/img_catalog/catalog2_4.jpg);
+    height: 420px;
+    width: 360px;
+    background-repeat: no-repeat;
+}
+
+.cat_text2{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.t1_1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+}
+
+.t2_2{
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.t3_3{
+color: #F16D7F;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.items3{
+    background-color: rgba(248, 248, 248, 1);
+    height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img3{
+    background-image: url(../Domashka/img_catalog/catalog_3.png);
+    height: 420px;
+    width: 360px;
+    background-repeat: no-repeat;
+}
+
+.cat_text3{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.t1_1_1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+}
+
+.t2_2_2{
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.t3_3_3{
+color: #F16D7F;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.items4{
+    background-color: rgba(248, 248, 248, 1);
+    height: 581px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img4{
+    background-image: url(../Domashka/img_catalog/catalog_4.png);
+    height: 420px;
+    width: 360px;
+    background-repeat: no-repeat;
+}
+
+.cat_text4{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.t1_1_1_1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+}
+
+.t2_2_2_2{
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.t3_3_3_3{
+color: #F16D7F;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.items5{
+    background-color: rgba(248, 248, 248, 1);
+    height: 581px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img5{
+    background-image: url(../Domashka/img_catalog/catalog_5.png);
+    height: 420px;
+    width: 360px;
+    background-repeat: no-repeat;
+}
+
+.cat_text5{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.t1_1_1_1_1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+}
+
+.t2_2_2_2_2{
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.t3_3_3_3_3{
+color: #F16D7F;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.items6{
+    background-color: rgba(248, 248, 248, 1);
+    height: 581px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img6{
+    background-image: url(../Domashka/img_catalog/catalog_6.png);
+    height: 420px;
+    width: 360px;
+    background-repeat: no-repeat;
+}
+
+.cat_text6{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.t1_1_1_1_1_1{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+}
+
+.t2_2_2_2_2_2{
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+
+.t3_3_3_3_3_3{
+color: #F16D7F;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+
+.catalog_items{
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text_button{
+    border: 3px solid #F26376;
+    width: 212px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom_a:hover {
+    color: white;
+    background-color: rgba(241, 109, 127, 1);
+}
+
+.buttom_a{
+text-decoration: none;
+color:#F26376;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+margin-top: 48px;
+}
+
+.feature{
+    background-color: black;
+    height: 341px;
+    width: 1600px;
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+}
+
+.frame{
+    background: url(../Domashka/img/Layer.jpg);
+    height: 448px;
+    width: 1600px;
+}
+
+.fone_f{
+    background: rgba(244, 244, 244, 0.7);
+    position: absolute;
+    width: 1600px;
+    height: 448px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intersect{
+    width: 360px;
+    height: 225px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text_intersect{
+font-family: Lato;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+
+.down_input{
+color: black;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.input_email{
+    width: 557px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+}
+
+.e_mail{
+    background-color: rgba(225, 225, 225, 1);
+    height: 49px;
+    width: 256px;
+    border-radius: 50px 0 0 50px;
+    padding: 7px 64px 6px 22px;
+    border: none;
+}
+
+.e_mail:focus{
+    outline: none;
+}
+
+.s_ubmit{
+    width: 100px;
+    border-radius: 0 50px 50px 0;
+    background-color: rgba(241, 109, 127, 1);
+    color: white;
+    border: none;
+    padding: 7px 7px 6px 8px;
+}
+
+.s_ubmit:hover{
+    cursor: pointer;
+}
+
+.s_ubmit:focus{
+    outline: none;
+}
+
+
+
+.text_delivery{
+color: white;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 19.96px;
+line-height: 24px;
+margin: 28px 0 16px 0;
+}
+
+.text_delivery_2{
+color: white;
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13.972px;
+line-height: 17px;
+text-align: center;
+}
+
+.delivery{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 134px;
+    width: 360px;
+}
+
+.sales{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 134px;
+    width: 360px;
+}
+
+.qualiti{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 134px;
+    width: 360px;
+}
+
+.dno{
+    background: black;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner_i{
+    display: flex;
+    justify-content: center;
+    margin: 0 15%;
+}
+
+.text_dno{
+color: white;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+margin: 0 15%;
+}
+
+.fone_i{
+    background-color: white;
+    width: 31px;
+    height: 32px;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.fone_i:hover {
+    fill: white;
+    background-color: rgba(241, 109, 127, 1);
+}
+
+.fone_1{
+    text-decoration: none;
+}
+
+.fa-facebook-f{
+    color: black;
+    background-color: white;
+    width: 31px;
+    height: 32px;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.fa-facebook-f:hover{
+    color: white;
+    background-color: rgba(241, 109, 127, 1);
+}
